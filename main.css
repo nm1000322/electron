@@ -15,3 +15,13 @@ h1{
   color:  black;
   font-size: 72px;
 }
+.mainImage{
+  width: 85%;
+  height: auto;
+  z-index: -1;
+  transition: linear 1s;
+}
+:hover.mainImage
+{
+  box-shadow: 10px 20px 30px black;
+}
