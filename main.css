@@ -1,13 +1,20 @@
-button{
-  background-color: blue;
+.body{
   display: block;
-  height: 40px;
-  width:60px;
-  border-radius: 20px;
-  color:white;
+  height: 100%;
+  width: 100%;
+}
+.lumos{
+  display: inline-block;
+  border-radius: 0px;
+  border: none;
+  width: 25%;
+  height: 25%;
+  background-color: orange;
 }
 .image{
   text-align: center;
+
+  transition: linear 1s;
 }
 h1{
   font-family: Arial;
@@ -18,10 +25,4 @@ h1{
 .mainImage{
   width: 85%;
   height: auto;
-  z-index: -1;
-  transition: linear 1s;
-}
-:hover.mainImage
-{
-  box-shadow: 10px 20px 30px black;
 }
